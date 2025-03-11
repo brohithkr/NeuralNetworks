@@ -6,6 +6,7 @@ dependencies = [
     "import-ipynb>=0.2",
     "ipykernel>=6.29.5",
     "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
     "torch>=2.6.0",
     "torchaudio>=2.6.0",
     "torchvision>=0.21.0",
