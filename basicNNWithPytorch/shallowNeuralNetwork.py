@@ -8,9 +8,9 @@ class NeuralNetwork(nn.Module):
         self.flatten = nn.Flatten()
         self.linear_stack = nn.Sequential(
             nn.Linear(28*28, 512),
-            nn.ReLU(),
+            nn.PReLU(),
             nn.Linear(512, 512),
-            nn.ReLU(),
+            nn.PReLU(),
             nn.Linear(512, 10),
             nn.Softmax(dim=1)
         )
